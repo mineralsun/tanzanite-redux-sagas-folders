@@ -5,7 +5,7 @@ import { Provider } from 'react-redux';
 import createSagaMiddleware from 'redux-saga';
 import logger from 'redux-logger';
 import elementList from './reducers/element.reducer.js';
-import rootSaga from './sagas/element.saga.js';
+import rootSaga from './sagas/_root.saga.js';
 
 
 // Step 4: create saga middleware
